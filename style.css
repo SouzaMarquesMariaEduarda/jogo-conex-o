@@ -166,16 +166,12 @@ body::after {
   background-size: cover;
 }
 .card-front.blue-eyes {
-  background-image: url(.card-front.blue-eyes){
-    background-image: url();
+  background-image: url(https://static.wikia.nocookie.net/until-dawn/image…Guest_Cabin.png/revision/latest?cb=20241124133142);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-  };
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
+  }
+
 /* Card name display */
 .card-name {
   position: absolute;
