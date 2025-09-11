@@ -8,6 +8,7 @@
   --red-glow: rgba(173, 13, 13, 0.8);
   --blue-glow: rgba(13, 73, 173, 0.8);
   --white-glow: rgba(200, 200, 200, 0.8);
+  --green-glow: rgb(0, 128, 0);
 }
 
 body {
@@ -152,7 +153,7 @@ body::after {
   background-size: cover;
 }
 
-.card-front.blue-eyes {
+.card-front.card-front.blue-EYES {
   background-image: url('https://pm1.narvii.com/6659/4edd96316186dcf6302da3098769e416d5119247_hq.jpg');
   background-position: center center;
   background-repeat: no-repeat;
@@ -171,7 +172,26 @@ body::after {
   background-repeat: no-repeat;
   background-size: cover;
  }
-/* Card name display */
+ .card-front.SKULL {
+  background-image: url(https://ella.janitorai.com/bot-avatars/G3Vrk97DvJ3TY3i0G7VAn.webp?width=1200);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.card-front.BLUE-eyes {
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_oCFjD68A8Vyf1aLfZjZz89wsUKxmgvRnywlgRJwpLaHiNRY-OTOoTurOq8SIjE8i6HE&usqp=CAU);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.CARD-FRONT.SERVANT {
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4fe21NwlyqgElOwY-ov4Mvx42VMXfdLcGaw&s);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+ /* Card name display */
 .card-name {
   position: absolute;
   bottom: -30px;
@@ -219,6 +239,10 @@ body::after {
 
 .white-particle {
   background-color: #ddd;
+}
+
+.green-particle {
+  background-color: #008000;
 }
 
 .card-container:hover .magic-particles {
@@ -272,6 +296,13 @@ body::after {
     0 0 75px rgba(200, 200, 200, 0.2);
 }
 
+/* Green glow */
+.card-container:hover .green-glow {
+  box-shadow: 
+    0 0 25px var(--green-glow),
+    0 0 50px rgba(0, 255, 21, 0.4),
+    0 0 75px rgba(12, 139, 0, 0.2);
+}
 /* Enhanced glow when activated */
 .card-container.activated .magic-glow {
   opacity: 1;
@@ -309,6 +340,13 @@ body::after {
     0 0 90px rgba(200, 200, 200, 0.3);
 }
 
+/* Green glow */
+.card-container:active .green-glow {
+  box-shadow: 
+    0 0 30px var(--green-glow),
+    0 0 60px rgba(0, 255, 21, 0.4),
+    0 0 90px rgba(12, 139, 0, 0.2);
+}
 @keyframes float {
   0%, 100% {
     transform: translateY(0);
