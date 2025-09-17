@@ -191,6 +191,22 @@ body::after {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+.card-front.SERVANT {
+  background-image: url(https://i.pinimg.com/736x/d9/a1/3f/d9a13f0bf0af9137535442ff24fc8921.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+ }
+
+ .CARD-FRONT.SKULL {
+  background-image: url();
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
  /* Card name display */
 .card-name {
   position: absolute;
