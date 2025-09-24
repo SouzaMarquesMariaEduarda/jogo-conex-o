@@ -51,6 +51,13 @@ document.addEventListener('DOMContentLoaded', () => {
     } else if (magicGlow.classList.contains('white-glow')) {
       particleClass = 'white-particle';
     }
+      else if (magicGlow.classList.contains('green-glow')){
+        particleClass = 'green-particle';
+      }
+      else if (magicGlow.classList.contains('black-glow')){
+        particleClass = 'black-particle';
+      }
+    
     
     for (let i = 0; i < particleCount; i++) {
       const particle = document.createElement('div');

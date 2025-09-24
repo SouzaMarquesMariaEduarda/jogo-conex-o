@@ -9,6 +9,7 @@
   --blue-glow: rgba(13, 73, 173, 0.8);
   --white-glow: rgba(200, 200, 200, 0.8);
   --green-glow: rgb(0, 128, 0);
+  --black-glow:rgba(173, 13, 13, 0.4);
 }
 
 body {
@@ -200,7 +201,7 @@ body::after {
  }
 
  .CARD-FRONT.SKULL {
-  background-image: url();
+  background-image: url(https://vignette.wikia.nocookie.net/villains/images/2/2e/Wendigo4.png/revision/latest?cb=20150827181723);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -261,6 +262,10 @@ body::after {
   background-color: #008000;
 }
 
+.black-particle {
+  background-color: #ad0d0d66;
+}
+
 .card-container:hover .magic-particles {
   opacity: 1;
 }
@@ -319,6 +324,15 @@ body::after {
     0 0 50px rgba(0, 255, 21, 0.4),
     0 0 75px rgba(12, 139, 0, 0.2);
 }
+
+/* Black glow */
+.card-container:hover .black-glow {
+  box-shadow: 
+    0 0 25px var(--black-glow),
+    0 0 50px rgba(101, 0, 0, 0.547),
+    0 0 75px rgba(71, 6, 6, 0.359);
+}
+
 /* Enhanced glow when activated */
 .card-container.activated .magic-glow {
   opacity: 1;
