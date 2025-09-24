@@ -141,7 +141,7 @@ body::after {
 }
 
 .card-front.dark-magician {
-  background-image: url(https://i.pinimg.com/originals/8e/5d/a7/8e5da72d429becce965b92f9d8acc2cf.png);
+  background-image: url('https://i.pinimg.com/originals/8e/5d/a7/8e5da72d429becce965b92f9d8acc2cf.png');
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -174,39 +174,55 @@ body::after {
   background-size: cover;
  }
  .card-front.SKULL {
-  background-image: url(https://ella.janitorai.com/bot-avatars/G3Vrk97DvJ3TY3i0G7VAn.webp?width=1200);
+  background-image: url('https://ella.janitorai.com/bot-avatars/G3Vrk97DvJ3TY3i0G7VAn.webp?width=1200');
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .card-front.BLUE-eyes {
-  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_oCFjD68A8Vyf1aLfZjZz89wsUKxmgvRnywlgRJwpLaHiNRY-OTOoTurOq8SIjE8i6HE&usqp=CAU);
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_oCFjD68A8Vyf1aLfZjZz89wsUKxmgvRnywlgRJwpLaHiNRY-OTOoTurOq8SIjE8i6HE&usqp=CAU');
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
 }
-.CARD-FRONT.SERVANT {
-  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4fe21NwlyqgElOwY-ov4Mvx42VMXfdLcGaw&s);
+.card-FRONT.SERVANT {
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4fe21NwlyqgElOwY-ov4Mvx42VMXfdLcGaw&s');
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .card-front.SERVANT {
-  background-image: url(https://i.pinimg.com/736x/d9/a1/3f/d9a13f0bf0af9137535442ff24fc8921.jpg);
+  background-image: url('https://i.pinimg.com/736x/d9/a1/3f/d9a13f0bf0af9137535442ff24fc8921.jpg');
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
  }
 
- .CARD-FRONT.SKULL {
-  background-image: url(https://vignette.wikia.nocookie.net/villains/images/2/2e/Wendigo4.png/revision/latest?cb=20150827181723);
+ .card-front.SKULL {
+  background-image: url('https://vignette.wikia.nocookie.net/villains/images/2/2e/Wendigo4.png/revision/latest?cb=20150827181723');
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
+/*Matthew*/
+.CARD-FRONT-SERVANT {
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4fe21NwlyqgElOwY-ov4Mvx42VMXfdLcGaw&s');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+ }
+
+
+/* PSICOLOGO ERRADO/WENDIGO*/
+.card-front.skull {
+  background-image: url(https://static.wikia.nocookie.net/until-dawn/images/b/b9/DrHill.png/revision/latest?cb=20170622043606&path-prefix=pt-br);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
  /* Card name display */
 .card-name {
@@ -370,13 +386,21 @@ body::after {
     0 0 90px rgba(200, 200, 200, 0.3);
 }
 
-/* Green glow */
+/* Black glow */
+.card-container:active .green-glow {
+  box-shadow: 
+    0 0 30px var(--black-glow),
+    0 0 60px rgba(101, 0, 0, 0.547),
+    0 0 90px rgba(71, 6, 6, 0.359);
+}
+
 .card-container:active .green-glow {
   box-shadow: 
     0 0 30px var(--green-glow),
     0 0 60px rgba(0, 255, 21, 0.4),
     0 0 90px rgba(12, 139, 0, 0.2);
 }
+
 @keyframes float {
   0%, 100% {
     transform: translateY(0);
