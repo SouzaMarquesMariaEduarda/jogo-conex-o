@@ -162,7 +162,7 @@ body::after {
 }
 
 .card-front.servant {
-  background-image: url('https://i.redd.it/8a8hwl6i9jxd1.png');
+  background-image: url(https://static0.srcdn.com/wordpress/wp-content/uploads/2021/11/Ashley-Until-Dawn1.jpg?q=50&fit=crop&w=825&dpr=1.5);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -186,12 +186,6 @@ body::after {
   background-repeat: no-repeat;
   background-size: cover;
 }
-.card-FRONT.SERVANT {
-  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4fe21NwlyqgElOwY-ov4Mvx42VMXfdLcGaw&s');
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
 
 .card-front.SERVANT {
   background-image: url('https://i.pinimg.com/736x/d9/a1/3f/d9a13f0bf0af9137535442ff24fc8921.jpg');
@@ -200,29 +194,22 @@ body::after {
   background-size: cover;
  }
 
- .card-front.SKULL {
+
+
+.card-front.BLUE-EYES {
+ background-image: url('https://i.pinimg.com/736x/de/b4/8f/deb48f0fc64651dee9e92d7efbc0a0ea.jpg');
+ background-position: center center;
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+
+ .card-front.DARK-MAGICIAN {
   background-image: url('https://vignette.wikia.nocookie.net/villains/images/2/2e/Wendigo4.png/revision/latest?cb=20150827181723');
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-/*Matthew*/
-.CARD-FRONT-SERVANT {
-  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4fe21NwlyqgElOwY-ov4Mvx42VMXfdLcGaw&s');
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
- }
-
-
-/* PSICOLOGO ERRADO/WENDIGO*/
-.card-front.skull {
-  background-image: url(https://static.wikia.nocookie.net/until-dawn/images/b/b9/DrHill.png/revision/latest?cb=20170622043606&path-prefix=pt-br);
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
 
  /* Card name display */
 .card-name {
