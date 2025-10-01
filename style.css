@@ -203,6 +203,13 @@ body::after {
  background-size: cover;
 }
 
+.CARD-front.CARD-front.BLUE-EYES {
+  background-image: url('https://assets.mycast.io/characters/mike-55086548-normal.jpg?1706691923');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
  .card-front.DARK-MAGICIAN {
   background-image: url('https://vignette.wikia.nocookie.net/villains/images/2/2e/Wendigo4.png/revision/latest?cb=20150827181723');
   background-position: center center;
