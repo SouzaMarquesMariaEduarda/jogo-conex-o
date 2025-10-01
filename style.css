@@ -10,6 +10,7 @@
   --white-glow: rgba(200, 200, 200, 0.8);
   --green-glow: rgb(0, 128, 0);
   --black-glow:rgba(173, 13, 13, 0.4);
+  --yellow-glow: rgba(231, 190, 6);
 }
 
 body {
@@ -275,6 +276,9 @@ body::after {
 .black-particle {
   background-color: #ad0d0d66;
 }
+.yellow-particle {
+  background-color: #e7be06;
+}
 
 .card-container:hover .magic-particles {
   opacity: 1;
@@ -343,6 +347,13 @@ body::after {
     0 0 75px rgba(71, 6, 6, 0.359);
 }
 
+.card-container:hover .black-glow {
+  box-shadow: 
+    0 0 25px var(--black-glow),
+    0 0 50px rgb(231, 190, 6),
+    0 0 75px rgba(180, 177, 10, 0.719);
+}
+
 /* Enhanced glow when activated */
 .card-container.activated .magic-glow {
   opacity: 1;
@@ -393,6 +404,13 @@ body::after {
     0 0 30px var(--green-glow),
     0 0 60px rgba(0, 255, 21, 0.4),
     0 0 90px rgba(12, 139, 0, 0.2);
+}
+
+.card-container:active .green-glow {
+  box-shadow: 
+    0 0 30px var(--green-glow),
+    0 0 60px rgb(231, 190, 6),
+    0 0 75px rgba(180, 177, 10, 0.719);
 }
 
 @keyframes float {
