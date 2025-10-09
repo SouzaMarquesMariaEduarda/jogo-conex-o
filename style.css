@@ -5,11 +5,11 @@
   --gold-color: #d4af37;
   --purple-color: #6a0dad;
   --purple-glow: rgba(106, 13, 173, 0.8);
-  --red-glow: rgba(173, 13, 13, 0.8);
+  --red-glow: rgba(209, 2, 2, 0.863);
   --blue-glow: rgba(13, 73, 173, 0.8);
   --white-glow: rgba(200, 200, 200, 0.8);
   --green-glow: rgb(0, 128, 0);
-  --black-glow:rgba(173, 13, 13, 0.4);
+  --black-glow:rgba(206, 0, 0, 0.855);
   --yellow-glow: rgba(231, 190, 6);
 }
 
@@ -148,16 +148,15 @@ body::after {
   background-size: cover;
 }
 
-.CARD-FRONT.Yellow {
-  background-image: url('https://assets.mycast.io/characters/mike-55086548-normal.jpg?1706691923');
+.card-front.skull {
+  background-image: url('https://assets.mycast.io/actor_images/actor-emily-until-dawn-721315_large.jpg?1680117225');
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-
-.card-front.skull {
-  background-image: url('https://assets.mycast.io/actor_images/actor-emily-until-dawn-721315_large.jpg?1680117225');
+.card-front.yellow{
+  background-image: url('Mike.jpg');
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -258,7 +257,7 @@ body::after {
 }
 
 .red-particle {
-  background-color: #a00;
+  background-color: #d10202dc;
 }
 
 .blue-particle {
@@ -278,7 +277,7 @@ body::after {
 }
 
 .black-particle {
-  background-color: #ad0d0d66;
+  background-color: #ce0000da;
 }
 
 
@@ -313,8 +312,9 @@ body::after {
 .card-container:hover .red-glow {
   box-shadow: 
     0 0 25px var(--red-glow),
-    0 0 50px rgba(173, 13, 13, 0.4),
-    0 0 75px rgba(173, 13, 13, 0.2);
+    0 0 50px rgba(209, 2, 2, 0.863),
+    0 0 75px rgba(173, 7, 7, 0.863);
+
 }
 
 /* Blue glow */
@@ -354,8 +354,8 @@ body::after {
 .card-container:hover .black-glow {
   box-shadow: 
     0 0 25px var(--black-glow),
-    0 0 50px rgba(101, 0, 0, 0.547),
-    0 0 75px rgba(71, 6, 6, 0.359);
+    0 0 50px rgba(206, 0, 0, 0.855),
+    0 0 75px rgba(218, 3, 3, 0.692);
 }
 
 /* Enhanced glow when activated */
@@ -375,8 +375,8 @@ body::after {
 .card-container.activated .red-glow {
   box-shadow: 
     0 0 30px var(--red-glow),
-    0 0 60px rgba(173, 13, 13, 0.6),
-    0 0 90px rgba(173, 13, 13, 0.3);
+    0 0 60px rgba(209, 2, 2, 0.863),
+    0 0 90px rgba(173, 7, 7, 0.863);
 }
 
 /* Blue glow activated */
@@ -406,8 +406,8 @@ body::after {
 .card-container:active .green-glow {
   box-shadow: 
     0 0 30px var(--black-glow),
-    0 0 60px rgba(101, 0, 0, 0.547),
-    0 0 90px rgba(71, 6, 6, 0.359);
+    0 0 60px rgba(206, 0, 0, 0.855),
+    0 0 90px rgba(218, 3, 3, 0.692);
 }
 
 .card-container:active .green-glow {
